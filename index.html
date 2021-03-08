@@ -1,20 +1,49 @@
-<html>
-    <head>
-        <title>Portfolio</title>
-        <link rel = "stylesheet" href = "style.css">
-    </head>
-    <body>
-        <ul class = "menu">
-            <li class = "links"><a href = "#Home">Home</a></li>
-            <li class = "links"><a href = "#FavPro">Favourite Programmer</a></li>
-        </ul>
-        <section id = "Home">
-            <h1>Programming</h1>
-            <img src = "https://i.postimg.cc/fRxLs8Ty/pro.jpg" width = "300">
-            <p>Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task</p>
-        </section>
-        <section id = "FavPro">
-            <h1>Kazumitsu Ota</h1>
-<p>Kazumitsu Ota is a programmer who developed super mario games</p>
-        </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <section id="PhotoG">
+        <h1>Apps</h1>
+        <div class="line"></div>
+      </section>
+    <h2>Welcome to photo gallery</h2>
+    <h5>Explore the gallery</h5>
+
+<div id = "MyCarousel" class = "carousel slide">
+    <div class = "carousel-inner">
         
+<div class = "item active">
+   
+        <a href = "" target = "_blank"><img src = "avengers.png" class = "image-responsive"></a>
+        <div class = "carousel-content">
+            <p>Avengers logo</p>
+        </div>
+        <a class = "left carousel-control" href = "#MyCarousel" data-slide = "prev" class = "glyphicon glyphicon-chevron-left"></a>
+        <a class = "right carousel-control" href = "#MyCarousel" data-slide = "next" class = "glyphicon glyphicon-chevron-right"></a>
+    </div>
+    <div class = "item">
+    
+        <a href = "" target = "_blank"><img src = "thanos.jpg" class = "image-responsive"></a>
+        <div class = "carousel-content">
+            <p>Thanos</p>
+        </div>
+</div>
+    </div>
+<ol class = "carousel-indicators">
+<li data-target="#MyCarousel" data-slide="0" class = "active"></li>
+<li data-target="#MyCarousel" data-slide="1"></li>
+</ol>
+    </div>
+    </div>
+</body>
+</html>
